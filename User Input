@@ -1,0 +1,19 @@
+import java.util.*;   //For user input, we must have to import....
+public class Main
+{
+	public static void main(String[] args) {
+		Scanner sa = new Scanner(System.in);          //INTEGER INPUT
+		int a = sa.nextInt();
+		Scanner sc = new Scanner(System.in);          //CHARACTER INPUT
+		char ch = sc.next().charAt(0);
+		Scanner sf = new Scanner(System.in);          //FLOAT INPUT
+		float f = sf.nextFloat();
+		Scanner sd = new Scanner(System.in);          //DOUBLE INPUT
+		double d = sd.nextDouble();
+		
+		System.out.println(a);
+		System.out.println(ch);
+		System.out.println(f);
+		System.out.println(d);
+	}
+}
