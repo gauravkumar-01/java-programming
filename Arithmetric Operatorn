@@ -1,0 +1,57 @@
+// ADDITION
+public class Main
+{
+	public static void main(String[] args) {
+		int a = 5;
+		int b = 7;
+		int c = a+b;
+		System.out.println(c);
+	}
+}
+
+
+// SUBTRACTION
+public class Main
+{
+	public static void main(String[] args) {
+		int a = 5;
+		int b = 17;
+		int c = a-b;
+		System.out.println(c);
+	}
+}
+
+
+//MULTIPLICATIOJN
+public class Main
+{
+	public static void main(String[] args) {
+		int a = 4;
+		int b = 7;
+		int c = a*b;
+		System.out.println(c);
+	}
+}
+
+
+// DIVISION
+public class Main
+{
+	public static void main(String[] args) {
+		int a = 42;
+		int b = 7;
+		int c = a/b;
+		System.out.println(c);
+	}
+}
+
+// MODULUS
+public class Main
+{
+	public static void main(String[] args) {
+		int a = 45;
+		int b = 7;
+		int c = a/b;
+		System.out.println(c);
+	}
+}
