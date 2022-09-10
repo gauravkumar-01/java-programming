@@ -1,0 +1,10 @@
+public class Main
+{
+	public static void main(String[] args) {
+		int a = 4;
+		
+		System.out.println(a--);        //Post-Decrement,  a becomes 3 after printing
+		System.out.println(a);          // Here a is 3.
+		System.out.println(--a);        // Pre-Decrement, a decreases by 1 then print.Here, a becomes 2.
+	}
+}
