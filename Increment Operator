@@ -1,0 +1,10 @@
+public class Main
+{
+	public static void main(String[] args) {
+		int a = 4;
+		
+		System.out.println(a++);        //Post-Increment,  a becomes 5 after printing
+		System.out.println(a);          // Here a is 5.
+		System.out.println(++a);        // Pre-Increment, a increases by 1 then print.Here, a is 6.
+	}
+}
